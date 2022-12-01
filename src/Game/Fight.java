@@ -110,7 +110,7 @@ public class Fight {
             yourAvatar.levelUp();
             bear.levelUp();
             bear.health = 100;
-            bear.animal = bear.changeName(bear.animal, bear.level);
+            bear.changeName();
 
         }
     }
@@ -176,7 +176,7 @@ public class Fight {
             yourAvatar.levelUp();
             wolf.levelUp();
             wolf.health = 100;
-            wolf.animal= wolf.changeName(wolf.animal, wolf.level);
+            wolf.changeName();
         }
 
     }
@@ -241,7 +241,7 @@ public class Fight {
             yourAvatar.levelUp();
             lizard.levelUp();
             lizard.health = 100;
-            lizard.animal = lizard.changeName(lizard.animal, lizard.level);
+            lizard.changeName();
         }
     }
 
@@ -306,10 +306,10 @@ public class Fight {
             yourAvatar.levelUp();
             rat.levelUp();
             rat.health = 100;
-            rat.animal = rat.changeName(rat.animal, rat.level);
+            rat.changeName();
+
         }
 
     }
-
 }
 

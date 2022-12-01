@@ -30,24 +30,24 @@ public class Avatar {                     // declaring constructor, constructor 
         agility++;
 
     }
-    public String changeName(String animal, int level) {
+    public void changeName() {
         if (level > 3) {
 
             switch (animal) {
                 case "bear":
-                    return "Grizzly bear";
+                    animal = "Grizzly bear";
                 case "wolf":
-                    return "Indian wolf";
+                    animal = "Indian Wolf";
 
                 case "lizard":
-                    return "Iguana";
+                    animal = "Iguana";
                 case "rat":
-                    return "Hazardous rat";
+                    animal = "Hazardous rat";
             }
 
 
         }
-        return animal;
+
 
 
     }
